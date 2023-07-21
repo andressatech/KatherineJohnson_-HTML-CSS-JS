@@ -1,0 +1,152 @@
+body {
+    background-color: #eedcfe;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    color: #760587;
+    justify-content: space-between;
+    --cor-destaque: #760587;
+}
+
+.navbar, .navbar-brand {
+    background-color: var(--cor-destaque);
+    color: white;
+    text-align: center;
+}
+
+#botao-alterar-tema{
+    background-color: #760587;
+    border: none;
+
+}
+
+.imagem-botao{
+    width: 30px;
+}
+
+.perfil {
+    width: 100%;
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+}
+
+.perfil_foto {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 30%;
+    border: 3px solid var(--cor-destaque);
+}
+
+.perfil_nome {
+    font-family: 'Damion', cursive;
+    font-size: 52px;
+    font-weight: 400;
+    color:  var(--cor-destaque);
+    margin: 16px 0;
+}
+
+.perfil_descricao {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+.container {
+   display: flex;
+
+}
+
+.section {
+    padding: 8px;
+    width: 100%;
+    margin: 5px auto;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.section_card {
+    display: flex;
+    text-align: center;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.card {
+    color:var(--cor-destaque);
+    padding: 8px;
+    width: 500px;
+}
+
+.lista {
+    text-align: justify;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: 400;
+    color: #eedcfe ;
+    margin: 16px 0;
+    background-color: var(--cor-destaque);
+    position: relative;
+    border: none;
+    
+}
+
+.footer {
+    width: 100%;
+    height: 42px;
+    background-color:  var(--cor-destaque); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.footer_texto {
+   font-size: 14px;
+   font-weight: 400;
+   color: #eedcfe;
+   display: flex;
+   align-items: center;
+}
+
+body.modo-escuro{
+    background-color: #212121;
+    color: white;
+}
+
+.modo-escuro .card{
+    background-color: #f8e3ff;
+    color:#212121;
+}
+
+.modo-escuro #button {
+    background-color: #ba85ce;
+    color: white;
+}
+
+.modo-escuro .perfil_foto{
+    border-color: #ba85ce;
+}
+
+.modo-escuro .navbar  {
+    background-color: #867695;
+}
+
+.modo-escuro .navbar-brand {
+    background-color: #867695;
+}
+
+.modo-escuro #botao-alterar-tema {
+    background-color: #867695;
+}
+
+.modo-escuro .footer {
+    background-color: #867695; 
+}
