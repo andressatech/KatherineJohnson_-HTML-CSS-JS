@@ -1,4 +1,4 @@
-# Womakers Code & Potência Tech- Projeto Final 
+# KatherineJohnson_ HTML,CSS&JS
 
 Projeto Final desenvolvido para o curso de "Programação Web para Iniciantes", oferecido pela WomakersCode em parceria com Potência Tech e Movtech.
 
